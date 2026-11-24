@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "cedev-nix": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1795114768,
+        "narHash": "sha256-hfHMS8kIwxIbDoL2p8JUxnquj1Tu2Bpxri2Sa1pvyKA=",
+        "owner": "jollyroger182",
+        "repo": "cedev-nix",
+        "rev": "e3dcbc1ec374d9321a9718ec81643948f0267bd9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jollyroger182",
+        "repo": "cedev-nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794840529,
+        "narHash": "sha256-ySrWnmZB5UsZTYGHHnBjllT05O5iFjElCRS+mabtfP0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e21fec321d73511849707a7585e4ea155ee4bf40",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cedev-nix": "cedev-nix",
+        "nixpkgs": [
+          "cedev-nix",
+          "nixpkgs"
+        ]
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
